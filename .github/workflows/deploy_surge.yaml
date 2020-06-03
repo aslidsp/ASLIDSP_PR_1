@@ -28,5 +28,5 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: Run Surge
-      run: surge ./ aslidsp_pr_1.surge.sh --token ${{secret.PR_1_SECRET}}
+      run: surge ./ aslidsp_pr_1.surge.sh --token ${{secrets.PR_1_SECRET}}
       
